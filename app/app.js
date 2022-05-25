@@ -119,8 +119,8 @@ function startStopwatch() {
         };
         secondsStopwatch.innerHTML = seconds;
     }  else if (minutes <= 58) {
+        seconds = "0" + 0;
         minutes++;
-        seconds = 0;
         if (minutes <= 9) {
             minutes = "0" + minutes;
         };
