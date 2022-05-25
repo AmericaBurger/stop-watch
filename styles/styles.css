@@ -69,6 +69,10 @@ body {
         font-size: 1rem;
         margin: .5rem;
     }
+    .buttons {
+        margin-bottom: 2rem;
+        height: auto;
+    }
     .container {
         min-width: 425px;
     }
