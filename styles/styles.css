@@ -62,7 +62,7 @@ body {
 }
 
 @media screen and (max-width: 425px) {
-    .numbers {
+    .numbers > div {
         font-size: 5rem;
     }
     .buttons > button {
